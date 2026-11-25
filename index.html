@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALISCKETCH | Digital Artist / Illustrator</title>
+  <meta name="description" content="Ilustraciones digitales hechas con creatividad, personalidad y mucho amor por el arte. Comisiones abiertas.">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== BARRA SUPERIOR + NAVEGACIÓN ========== -->
+  <header class="site-header" id="inicio-top">
+    <nav class="nav container" aria-label="Principal">
+      <a href="#inicio" class="brand">ALIS<span>CKETCH.</span></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#comisiones">Comisiones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-outline nav-cta">Encargar dibujo ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="topline">
+          <span>DIGITAL ARTIST / ILLUSTRATOR</span>
+          <span class="pink">OPEN FOR COMMISSIONS ♡</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">WELCOME TO MY ART WORLD</p>
+            <h1 class="display">ART IS<br>MY <em>WAY</em><br>TO SPEAK.</h1>
+            <p class="lead">Ilustraciones digitales hechas con creatividad, personalidad y mucho amor por el arte.</p>
+            <a href="#galeria" class="btn btn-solid">EXPLORAR MI ARTE ↗</a>
+          </div>
+          <figure class="hero-frame">
+            <img src="img/ilustracion-chica.png" alt="Ilustración digital de ALISCKETCH: chica de cabello negro pensando en su pareja">
+            <span class="heart" aria-hidden="true">♡</span>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE MÍ ========== -->
+    <section class="about section" id="sobre-mi">
+      <div class="container">
+        <p class="section-label">01 / ABOUT THE ARTIST</p>
+        <div class="about-grid">
+          <figure class="about-frame">
+            <img src="img/ilustracion-chico.png" alt="Arte e ilustraciones de la artista">
+          </figure>
+          <div>
+            <p class="eyebrow">HOLA, SOY ALI ♡</p>
+            <h2 class="display md">A LITTLE<br>BIT OF <em>ART.</em></h2>
+            <p class="text">Soy una artista digital apasionada por crear personajes, ilustraciones y mundos llenos de imaginación. A través de ALISCKETCH comparto mi estilo artístico y doy vida a las ideas de otras personas.</p>
+            <p class="text">Cada dibujo es una oportunidad para crear algo único y especial.</p>
+            <p class="signature">— Ali ♡</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALERÍA ========== -->
+    <section class="gallery section" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display md">MY LITTLE<br><em>ART GALLERY.</em></h2>
+          <p class="text small">Una pequeña colección de mis trabajos e ilustraciones favoritas.</p>
+        </div>
+        <!-- Cada .work abre la vista ampliada (lightbox) al hacer clic -->
+        <div class="gallery-grid">
+          <button class="work" data-title="Character Design" data-cat="01 / Illustration">
+            <img src="img/ilustracion-chica.png" alt="Character Design: chica con suéter rosa">
+            <span class="caption"><b>Character Design</b><i>01 / ILLUSTRATION</i></span>
+          </button>
+          <button class="work" data-title="Anime & Chibi Style" data-cat="02 / Digital Art">
+            <img src="img/ilustracion-bebe.png" alt="Anime y chibi: bebé con pijama de conejo rosa">
+            <span class="caption"><b>Anime &amp; Chibi Style</b><i>02 / DIGITAL ART</i></span>
+          </button>
+          <button class="work" data-title="Custom Portraits" data-cat="03 / Portrait">
+            <img src="img/ilustracion-chico.png" alt="Retrato personalizado: chico sosteniendo una estrella">
+            <span class="caption"><b>Custom Portraits</b><i>03 / PORTRAIT</i></span>
+          </button>
+          <button class="work" data-title="Stickers & Cute Art" data-cat="04 / Cute Art">
+            <img src="img/collage.png" alt="Collage: Frog Cookies, retratos y chibi">
+            <span class="caption"><b>Stickers &amp; Cute Art</b><i>04 / CUTE ART</i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMISIONES ========== -->
+    <section class="services section" id="comisiones">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display md">LET’S CREATE<br><em>SOMETHING.</em></h2>
+          <p class="text small">¿Tienes una idea? ¡Yo puedo convertirla en una ilustración!</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="num">01</span><span class="icon">♡</span>
+            <h3>Portrait</h3>
+            <p>Retratos digitales personalizados de personas o personajes.</p>
+            <a href="#contacto" class="tag" data-service="Portrait">RETRATOS</a>
+          </article>
+          <article class="card featured">
+            <span class="num">02</span><span class="icon">✿</span>
+            <h3>Character Design</h3>
+            <p>Diseño de personajes originales, expresiones y estilos únicos.</p>
+            <a href="#contacto" class="tag" data-service="Character Design">PERSONAJES</a>
+          </article>
+          <article class="card">
+            <span class="num">03</span><span class="icon">✧</span>
+            <h3>Full Illustration</h3>
+            <p>Ilustraciones completas con fondos, detalles y composición.</p>
+            <a href="#contacto" class="tag" data-service="Full Illustration">ILUSTRACIONES</a>
+          </article>
+        </div>
+        <p class="note"><span class="pink">♡</span> Todos los dibujos se realizan de manera personalizada.</p>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact section" id="contacto">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="display md">SAY<br><em>HELLO.</em></h2>
+          <p class="text small">Cuéntame tu idea y te responderé lo antes posible.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-links">
+            <img src="img/logo.png" alt="Logo ALISCKETCH" class="logo-img">
+            <!-- ⚠ Cambia estos enlaces por tus perfiles reales -->
+            <a href="https://www.instagram.com/aliscketch" target="_blank" rel="noopener">@Aliscketch ↗</a>
+            <a href="https://www.instagram.com/dalii.mz" target="_blank" rel="noopener">@dalii.mz ↗</a>
+            <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com ↗</a>
+          </div>
+          <form id="contact-form" novalidate>
+            <label>Nombre<input type="text" name="nombre" required autocomplete="name"></label>
+            <label>Correo<input type="email" name="correo" required autocomplete="email"></label>
+            <label>Tipo de comisión
+              <select name="servicio" id="servicio">
+                <option>Portrait</option><option>Character Design</option>
+                <option>Full Illustration</option><option>Otra idea</option>
+              </select>
+            </label>
+            <label>Tu idea<textarea name="mensaje" rows="5" required></textarea></label>
+            <button type="submit" class="btn btn-solid">ENVIAR IDEA ↗</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> ALISCKETCH.</span>
+    <span class="pink">Hecho con amor ♡</span>
+  </footer>
+
+  <!-- ========== LIGHTBOX (vista ampliada) ========== -->
+  <div class="lightbox" id="lightbox" hidden aria-modal="true" role="dialog" aria-label="Vista ampliada">
+    <button class="lb-close" aria-label="Cerrar">✕</button>
+    <figure><img src="" alt=""><figcaption></figcaption></figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
